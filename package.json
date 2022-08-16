@@ -2,7 +2,9 @@
   "name": "dropbox",
   "displayName": "Dropbox",
   "description": "Dropbox file system provider",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "repository": "https://github.com/kzvi/vsc-dropbox",
+  "publisher": "kzvi",
   "engines": {
     "vscode": "^1.70.0"
   },

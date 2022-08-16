@@ -5,7 +5,7 @@ export function activate(context: vscode.ExtensionContext) {
 	let fsp = new DropboxFSP(context);
 
 	context.subscriptions.push(vscode.commands.registerCommand('dropbox.open', () => {
-		vscode.workspace.updateWorkspaceFolders(0, Infinity, { uri: vscode.Uri.parse('dropbox:/'), name: 'Dropbox' });
+		vscode.workspace.updateWorkspaceFolders(0, 0, { uri: vscode.Uri.parse('dropbox:/'), name: 'Dropbox' });
 	}));
 
 	context.subscriptions.push(vscode.commands.registerCommand('dropbox.authenticate', () => {
